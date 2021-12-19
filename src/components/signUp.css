@@ -1,0 +1,62 @@
+
+
+
+.signUp_screen{
+        background: rgba(0,0,0,0.75);
+        /* width: 20rem; */
+        margin-left: auto;
+        margin-right: auto;
+        /* height: 25rem; */
+        padding: 40px;
+        color: #fff;
+        
+}
+
+.signUp_screen > form{
+        max-width: 500px;
+        width: 250px;
+        display: grid;
+        flex-direction: column;
+}
+
+
+.input_netflix{
+        background-color: rgb(65, 65, 65);
+        height: 30px;
+        margin-bottom: 16px;
+        padding: 10px; 
+        border-radius: 3px;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        
+}
+
+.button_netflix{
+        background-color: red ;
+        font-size: 1rem;
+        height: 40px;
+        margin-top: 20px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none;        
+}
+
+.SignUpLink{
+        color: #fff;
+        cursor: pointer;
+}
+.SignUpLink:hover{
+        text-decoration: underline;
+}
+
+
+.error{
+        position: relative;
+        bottom: 12px;
+        left: 10px;
+        color: rgb(226, 0, 0);
+        font-size: small;
+        margin: 0;
+}

@@ -1,0 +1,128 @@
+
+
+.body{        
+        z-index: 1;
+        color: #fff;
+        padding: 60px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;        
+}
+
+.loginScreen{
+        background-image: url(../images/home-bg.jpg);
+        position: relative;
+        background-size: cover;
+        object-fit: contain;
+}
+ .contain{
+         position: relative;
+         height: 100vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;         
+ }
+
+.background{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.logo{
+        position: fixed;
+        width: 150px;
+        left: 20px;
+        top: 20px;
+        cursor: pointer;
+}
+
+.session{
+        position: fixed;
+        z-index: 15px;
+        right: 20px;
+        top: 20px;
+        height: 40px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 3px;
+        width: 140px;
+        font-size: 1rem;
+}
+.session:hover{
+          background: rgba(255, 0, 0, 0.849);
+}
+
+
+.info{
+        color: #fff;
+        z-index: 15;
+        text-align: center;
+}
+
+
+.body >h1{
+        font-size: 3rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.774);
+
+}
+.body >h2{
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.774);
+        padding-left: 0;
+
+}
+.body >h3{
+        font-size: 1rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.774);
+
+}
+.body > form{
+        display: flex;
+        justify-content: center;
+}
+.input_comenzar{
+        margin-top: 20px;
+        padding: 10px;
+        outline-width: 0;
+        height: 30px;
+        width: 600px;
+        border: none;
+}
+.btn_comenzar{
+        margin-top: 20px;
+        height: 50px;
+        width: 150px;
+        color: #fff;
+        background-color: #e50914;
+        border: none;
+        font-size: 1.5rem;
+}
+
+@media(max-width : 768px){
+        
+        .body{
+                padding: 20px;
+        }
+        .body >h1{
+                font-size: 2rem;
+        }
+        .body >h2{
+                font-size: 1.2rem;
+        }
+        .body >h3{
+                font-size: 1rem;
+        }
+        .body > form{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .input_comenzar{
+                
+                width: 80%;
+        }
+}
