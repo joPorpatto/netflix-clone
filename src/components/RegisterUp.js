@@ -1,5 +1,5 @@
 import '../firebaseConfig'; 
-import "./registerUp.css"
+// import "./registerUp.css"
 
 
 import { startRegisterWithEmailPasswordName } from '../action/auth';
