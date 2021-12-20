@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import logo from "../images/netflix-logo-5.png"
+import logo from "../images/Netflix-logo.png"
 import { useNavigate } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-
-import "./nav.css"
 import avatar from "../images/Netflix-avatar.png"
 import { startLogout } from '../action/auth';
-
+import "./nav.css"
 
 export const Header = () =>{
 
@@ -15,16 +13,13 @@ export const Header = () =>{
         const dispatch = useDispatch()
         const {email} = useSelector(state => state.auth)
 
-
-
         useEffect(()=>{
                 window.addEventListener("scroll", () =>{
                 if(window.scrollY > 100){
                         setShow(true);
                 }else{
                         setShow(false);
-                }
-                
+                }                
                 });
                 return () => {
                 window.removeEventListener("scroll",()=>{})

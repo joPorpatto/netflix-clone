@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../images/netflix-logo-5.png';
+import logo from '../images/Netflix-logo.png';
 import { SignUp } from '../components/SignUp';
 import "./login.css"
 import { RegisterUp } from '../components/RegisterUp';

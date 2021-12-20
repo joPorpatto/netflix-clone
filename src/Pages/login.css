@@ -10,7 +10,7 @@
 }
 
 .loginScreen{
-        background-image: url(../images/home-bg.jpg);
+        background-image: url(../images/Home-bg.jpg);
         position: relative;
         background-size: cover;
         object-fit: contain;
