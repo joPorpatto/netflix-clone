@@ -14,24 +14,25 @@ export const Login = () => {
         
         return (
                 <div className="loginScreen">
-                        <div className='background'>                               
+                        <div className='background'>  
 
-                                <img 
-                                        src={logo} 
-                                        alt="logo_Netflix" 
-                                        className="logo"
-                                        onClick={()=>setSignIn(false)}
-                                />
-                                <button
-                                        className="session"
-                                        onClick={()=>{setSignIn(true)}}
-                                >
-                                        Iniciar Sesion
+                                <div className='navLogin'>
+                                        <img 
+                                                src={logo} 
+                                                alt="logo_Netflix" 
+                                                className="logo"
+                                                onClick={()=>setSignIn(false)}
+                                        />
+                                        <button
+                                                className="session"
+                                                onClick={()=>{setSignIn(true)}}
+                                        >
+                                                Iniciar Sesion
 
-                                </button>
+                                        </button>
+                                </div>           
 
                                 <div className="">
-                                       
                                     {    signIn
                                                ? (<SignUp/>)
                                                 : (registerIn) 

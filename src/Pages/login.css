@@ -28,12 +28,19 @@
 .background{
         height: 100vh;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
 }
 
+.navLogin{
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        margin-bottom: 20px;
+}
 .logo{
-        position: fixed;
+        position: relative;
         width: 150px;
         left: 20px;
         top: 20px;
@@ -41,7 +48,7 @@
 }
 
 .session{
-        position: fixed;
+        position: relative;
         z-index: 15px;
         right: 20px;
         top: 20px;
@@ -66,7 +73,9 @@
         text-align: center;
 }
 
-
+.body{
+        margin-top: 40px;
+}
 .body >h1{
         font-size: 3rem;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.774);
@@ -129,15 +138,5 @@
         .input_comenzar{
                 
                 width: 80%;
-        }
-}
-
-@media(max-height: 500px){
-        .logo{
-                display: none;
-        }
-        .session{
-                display: none;
-
         }
 }
