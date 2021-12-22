@@ -32,7 +32,7 @@ export const Login = () => {
                                         </button>
                                 </div>           
 
-                                <div className="">
+                               
                                     {    signIn
                                                ? (<SignUp/>)
                                                 : (registerIn) 
@@ -58,7 +58,7 @@ export const Login = () => {
 
                                      }   
                                 </div>
-                        </div>
+                        
 
                 </div>
         )
