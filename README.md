@@ -5,8 +5,6 @@ Web creada a partír de la página oficial de Netflix
 Ver demo en:
 https://joporpatto.github.io/netflix-clone/
 
-## Construido con 🛠️
-
 # Tecnologías usadas
 
 - React.JS
@@ -21,3 +19,7 @@ https://joporpatto.github.io/netflix-clone/
 - Axios.
 - Api: "themoviedb".
 - Github Pages.
+
+
+![ScreenShot](/public/images/Screenshot-1.png)
+![ScreenShot](/public/images/Screenshot-2.png)
