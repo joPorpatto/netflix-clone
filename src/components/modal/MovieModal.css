@@ -79,10 +79,10 @@
 
 @media screen and (max-width: 768px) {
   .modal__overview {
-    font-size: 16px;
+    font-size: 12px;
   }
   .modal__details {
-    font-size: 16px;
+    font-size: 12px;
   }
   .wrapper-modal {
     padding: 0;
@@ -90,6 +90,7 @@
   .modal {
     overflow-y: scroll !important;
     width: 300px;
+    max-height: 500px;
   }
 }
 @keyframes fadeIn {
