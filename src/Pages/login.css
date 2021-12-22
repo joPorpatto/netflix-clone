@@ -15,6 +15,9 @@
         position: relative;
         background-size: cover;
         object-fit: contain;
+
+        
+
 }
 
  .contain{
@@ -139,4 +142,9 @@
                 
                 width: 80%;
         }
+
+        .background{
+        height: 800px;
+        
+}
 }
